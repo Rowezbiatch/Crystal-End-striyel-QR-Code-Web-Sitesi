@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>  body {
+        background-color: #e9e9e9;
+
+        margin: 0;
+        /* min-height: 100vh; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    .card {
+        background-color: #ffffff;
+        border-radius: 35px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        margin: 15px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        color: #fefefe;
+        line-height: 22px;
+        border-bottom: 2px solid #ccc; 
+        border-top: 2px solid #ccc;
+        padding-bottom: 5px; 
+        margin-bottom: 10px;
+        box-shadow:  4px 4px 8px  rgba(80, 80, 80,80 );
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .card img {
+        max-width: 100%;
+        height: 200px; 
+        border-top-left-radius: 35px;
+        border-top-right-radius: 35px;
+        object-fit: cover; 
+        padding-top: 10px;
+    }
+    .card h5, .card p {
+        margin: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+    .card:hover {
+        transform: translateY(-10px);
+        box-shadow: 13px 13px 10px rgba(80, 80, 80,80 );
+    }
+    @media (min-width: 768px) {
+        .card {
+            height: 400px; 
+        right: 12px;
+        }
+    }
+    @media (max-width: 768px) {             
+        .card {
+            width: 100%; 
+          right: 12px;
+        }
+    }
+   a{
+    text-decoration: none;
+    }
+    .card h5 {
+    margin: 20px 0 10px; /* Daha az boşluk */
+    padding-top: 15px;
+    text-decoration: none;   
+    text-decoration: none;    
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+}
+
+   .card p {
+    padding-top: 15px; /* Daha az boşluk */
+    margin: 15px auto; /* Daha iyi hizalama */
+    margin-bottom: 10px;
+    max-width: 280px;
+    font-size: 16px;
+    border-top: 1px solid #333;
+    padding-top: 27px; /* Çizgi ile metin arasında biraz boşluk */
+    padding-bottom: 10px;
+    color: #333;
+    
+    font-size: 18px;
+    
+    padding-right: 13px;
+
+}
+
+    .text h1{
+        font-size: 40px;
+        text-shadow: 0 .15ch 15px var(--shadow),0 -2px 0 var(--highlight);
+        color: #333;
+        bottom: 65px;
+   
+    }
+    .navBox{
+        max-width: 1400px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .navbar{
+    width: 1350px;
+      display: flex;
+      height: 100px;
+      top: 0px;
+    }          
+    
+</style>
+</head>
+<body>
+
+    <div class="navBox">
+        <nav class="navbar">
+            <a href="Makineler.html">
+                <span class="logo">
+                        <div class="iletisim">
+                            
+                        </div>                         
+                    <img width="150px" src="https://crystal.com.tr/assets/icon/logo.png" alt="Kristal Endüstriyel">
+                </span>
+            </a>
+        </nav>
+       </div>
+    <span class="text">
+        <h1></h1>
+    
+    </span>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-4" style="max-width: 1350px;">
+            <div class="card">
+                    <a href="Snack-Series.html">
+                        <img src="assets/Pişiriciler/scnack/bain-marie.jpg" alt="Snack Serisi">
+                        <h5>Snack Serisi</h5>
+                        <p>Küçük boyutlu pişirme çözümleri sunar.</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="LINE-700.html">
+                        <img src="assets/Pişiriciler/line-700/bain-marie.webp" alt="700 Serisi">
+                        <h5>700 Serisi</h5>
+                        <p>Profesyonel kullanım için ideal.</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="LINE-900.html">
+                        <img src="assets/Pişiriciler/line-900/single-wok-range.webp" alt="900 Serisi">
+                        <h5>900 Serisi</h5>
+                        <p>Daha geniş kapasiteli pişirme seçenekleri.</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="PRO-900.html">
+                        <img src="assets/Pişiriciler/PRO-900/base-cupboard-160.jpg" alt="PRO 900 Serisi">
+                        <h5>PRO 900 Serisi</h5>
+                        <p>Profesyonel ve yoğun kullanım için tasarlanmıştır.</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="Ankastre.html">
+                        <img src="assets/Pişiriciler/Built-In/bain-marie-40.jpg" alt="Ankastre Serisi">
+                        <h5>Ankastre Serisi</h5>
+                        <p>Modern mutfaklar için şık çözümler.</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="Özel-Pişiriciler.html">
+                        <img src="assets/Pişiriciler/special -cooker/carving-2-gn-with-sconce.jpg" alt="Özel Pişiriciler">
+                        <h5>Özel Pişiriciler</h5>
+                        <p>Kişiselleştirilmiş pişirme ihtiyaçlarına özel tasarımlar.</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
