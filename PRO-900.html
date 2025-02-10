@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>  body {
+        background-color: #e9e9e9;
+
+        margin: 0;
+        /* min-height: 100vh; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    .card {
+        background-color: #ffffff;
+        border-radius: 35px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        margin: 15px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        color: #fefefe;
+        line-height: 22px;
+        border-bottom: 2px solid #ccc; 
+        border-top: 2px solid #ccc;
+        padding-bottom: 5px; 
+        margin-bottom: 10px;
+        box-shadow:  4px 4px 8px  rgba(80, 80, 80,80 );
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .card img {
+        max-width: 100%;
+        height: 200px; 
+        border-top-left-radius: 35px;
+        border-top-right-radius: 35px;
+        object-fit: cover; 
+        padding-top: 10px;
+    }
+    .card h5, .card p {
+        margin: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+    .card:hover {
+        transform: translateY(-10px);
+        box-shadow: 13px 13px 10px rgba(80, 80, 80,80 );
+    }
+    @media (min-width: 768px) {
+        .card {
+            height: 400px; 
+        right: 12px;
+        }
+    }
+    @media (max-width: 768px) {             
+        .card {
+            width: 100%; 
+          right: 12px;
+        }
+    }
+   a{
+    text-decoration: none;
+    }
+    .card h5 {
+    margin: 20px 0 10px; /* Daha az boşluk */
+    padding-top: 15px;
+    text-decoration: none;   
+    text-decoration: none;    
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+}
+
+   .card p {
+    padding-top: 15px; /* Daha az boşluk */
+    margin: 15px auto; /* Daha iyi hizalama */
+    margin-bottom: 10px;
+    max-width: 280px;
+    font-size: 16px;
+    border-top: 1px solid #333;
+    padding-top: 27px; /* Çizgi ile metin arasında biraz boşluk */
+    padding-bottom: 10px;
+    color: #333;
+    
+    font-size: 18px;
+    
+    padding-right: 13px;
+
+}
+
+    .text h1{
+        font-size: 40px;
+        text-shadow: 0 .15ch 15px var(--shadow),0 -2px 0 var(--highlight);
+        color: #333;
+        bottom: 65px;
+   
+    }
+    .navBox{
+        max-width: 1400px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .navbar{
+    width: 1350px;
+      display: flex;
+      height: 100px;
+      top: 0px;
+    }          
+    
+</style>
+</head>
+<body>
+
+    <div class="navBox">
+        <nav class="navbar">
+            <a href="Makineler.html">
+                <span class="logo">
+                        <div class="iletisim">
+                            
+                        </div>                         
+                    <img width="150px" src="https://crystal.com.tr/assets/icon/logo.png" alt="Kristal Endüstriyel">
+                </span>
+            </a>
+        </nav>
+       </div>
+    <span class="text">
+        <h1></h1>
+    
+    </span>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-4" style="max-width: 1350px;">
+            <div class="card">
+                    <a href="">
+                        <img src="assets/Pişiriciler/PRO-900/two-hot-plates-range.webp" alt="İkili Ocak Elektrikli">
+                        <h5>İkili Ocak Elektrikli</h5>
+                        <i><p>Kompakt ve verimli elektrikli ocak, her alana uyum sağlar.</p></i>
+                    </a>
+                </div>
+            </div>
+    
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="">
+                        <img src="assets/Pişiriciler/PRO-900/four-hot-plates-range.webp" alt="Dörtlü Ocak Elektrikli">
+                        <h5>Dörtlü Ocak Elektrikli</h5>
+                        <i><p>Yoğun kullanımlar için dört ocaklı yüksek performans.</p></i>
+                    </a>
+                </div>
+            </div>
+    
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="">
+                        <img src="assets/Pişiriciler/PRO-900/six-hot-plates-range.webp" alt="Altılı Ocak Elektrikli">
+                        <h5>Altılı Ocak Elektrikli</h5>
+                        <i><p>Profesyonel mutfaklar için güçlü ve dayanıklı ocak.</p></i>
+                    </a>
+                </div>
+            </div>
+    
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="">
+                        <img src="assets/Pişiriciler/PRO-900/two-burners-gas-range.webp" alt="İkili Ocak Gazlı">
+                        <h5>İkili Ocak Gazlı</h5>
+                        <i><p>Küçük alanlar için uygun, güçlü gazlı ocak.</p></i>
+                    </a>
+                </div>
+            </div>
+    
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="">
+                        <img src="assets/Pişiriciler/PRO-900/four-burners-gas-range.webp" alt="Dörtlü Ocak Gazlı">
+                        <h5>Dörtlü Ocak Gazlı</h5>
+                        <i><p>Büyük yemekler için dört ocaklı gazlı seçenek.</p></i>
+                    </a>
+                </div>
+            </div>
+    
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="">
+                        <img src="assets/Pişiriciler/PRO-900/six-burners-gas-range.webp" alt="Altılı Ocak Gazlı">
+                        <h5>Altılı Ocak Gazlı</h5>
+                        <i><p>Restoranlar için ideal, güçlü gazlı ocak.</p></i>
+                    </a>
+                </div>
+            </div>
+    
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="">
+                        <img src="assets/Pişiriciler/PRO-900/one-burner-gas-range.webp" alt="Tekli Ocak Gazlı">
+                        <h5>Tekli Ocak Gazlı</h5>
+                        <i><p>Pratik kullanım için tekli gazlı ocak.</p></i>
+                    </a>
+                </div>
+            </div>
+    
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="">
+                        <img src="assets/Pişiriciler/PRO-900/gas-solid-top.webp" alt="Kapalı Döküm Ocak Gazlı">
+                        <h5>Kapalı Döküm Ocak Gazlı</h5>
+                        <i><p>Dayanıklı kapalı döküm yapı ile mükemmel ısı dağılımı.</p></i>
+                    </a>
+                </div>
+            </div>
+    
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="">
+                        <img src="assets/Pişiriciler/PRO-900/single-wok-range.webp" alt="Vok Ocak Gazlı">
+                        <h5>Vok Ocak Gazlı</h5>
+                        <i><p>Hızlı wok pişirme için gazlı ocak.</p></i>
+                    </a>
+                </div>
+            </div>
+    
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="">
+                        <img src="assets/Pişiriciler/PRO-900/double-wok-range.webp" alt="İkili Vok Ocak Gazlı">
+                        <h5>İkili Vok Ocak Gazlı</h5>
+                        <i><p>Çift wok ile yüksek performanslı pişirme.</p></i>
+                    </a>
+                </div>
+            </div>
+    
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="">
+                        <img src="assets/Pişiriciler/PRO-900/spice-unit.jpg" alt="Baharatlık">
+                        <h5>Baharatlık</h5>
+                        <i><p>Lezzetli yemekler için düzenli baharat depolama.</p></i>
+                    </a>
+                </div>
+            </div>
+<div class="col-md-4">
+    <div class="card">
+        <a href="">
+            <img src="assets/Pişiriciler/PRO-900/chips-scuttle.webp" alt="Patates Dinlendirme Kutusu">
+            <h5>Patates Dinlendirme</h5>
+            <i><p>Patateslerin sıcaklık ve nemde korunmasını sağlar.</p></i>
+        </a>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card">
+        <a href="">
+            <img src="assets/Pişiriciler/PRO-900/bain-marie.webp" alt="Benmari">
+            <h5>Benmari</h5>
+            <i><p>Yavaş ve eşit ısıtarak yemeklerinizi sıcak tutar.</p></i>
+        </a>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card">
+        <a href="">
+            <img src="assets/Pişiriciler/PRO-900/work-top.jpg" alt="Ara Tezgah">
+            <h5>Ara Tezgah</h5>
+            <i><p>Pratik alan sağlayarak mutfakta düzeni artırır.</p></i>
+        </a>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card">
+        <a href="">
+            <img src="assets/Pişiriciler/PRO-900/two-plates-infrared-range.webp" alt="İkili Ocak İnfrared">
+            <h5>İkili Ocak İnfrared</h5>
+            <i><p>Hızlı ve etkili pişirme sağlar.</p></i>
+        </a>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card">
+        <a href="">
+            <img src="assets/Pişiriciler/PRO-900/four-plates-infrared-range.webp" alt="Dörtlü Ocak İnfrared">
+            <h5>Dörtlü Ocak İnfrared</h5>
+            <i><p>Profesyonel mutfaklar için verimli ısıtma.</p></i>
+        </a>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card">
+        <a href="">
+            <img src="assets/Pişiriciler/PRO-900/six-plates-infrared-range.webp" alt="Altılı Ocak İnfrared">
+            <h5>Altılı Ocak İnfrared</h5>
+            <i><p>Yoğun kullanım için güçlü performans.</p></i>
+        </a>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card">
+        <a href="">
+            <img src="assets/Pişiriciler/PRO-900/electric-fry-top-40.webp" alt="Izgara Pleyt Elektrikli | 40">
+            <h5>Izgara Pleyt Elektrikli | 40</h5>
+            <i><p>Et ve balık için mükemmel ızgara sonuçları.</p></i>
+        </a>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card">
+        <a href="">
+            <img src="assets/Pişiriciler/PRO-900/electric-fry-top-80.webp" alt="Izgara Pleyt Elektrikli | 80">
+            <h5>Izgara Pleyt Elektrikli | 80</h5>
+            <i><p>Yüksek kapasiteli ızgara pleyti ile mükemmel sonuçlar.</p></i>
+        </a>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card">
+        <a href="">
+            <img src="assets/Pişiriciler/PRO-900/gas-fry-top-40.webp" alt="Izgara Pleyt Gazlı | 40">
+            <h5>Izgara Pleyt Gazlı | 40</h5>
+            <i><p>Gazlı ızgara ile hızlı ve etkili pişirme.</p></i>
+        </a>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card">
+        <a href="">
+            <img src="assets/Pişiriciler/PRO-900/gas-fry-top-80.webp" alt="Izgara Pleyt Gazlı | 80">
+            <h5>Izgara Pleyt Gazlı | 80</h5>
+            <i><p>Yüksek kapasiteli gazlı ızgara için ideal.</p></i>
+        </a>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card">
+        <a href="">
+            <img src="assets/Pişiriciler/PRO-900/electric-fryer-40.webp" alt="Fritöz Elektrikli | 40">
+            <h5>Fritöz Elektrikli | 40</h5>
+            <i><p>Verimli kızartma için elektrikli fritöz.</p></i>
+        </a>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card">
+        <a href="">
+            <img src="assets/Pişiriciler/PRO-900/electric-fryer-80.webp" alt="Fritöz Elektrikli | 80">
+            <h5>Fritöz Elektrikli | 80</h5>
+            <i><p>Yüksek kapasiteli elektrikli fritöz.</p></i>
+        </a>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card">
+        <a href="">
+            <img src="assets/Pişiriciler/PRO-900/digital-fryer-40d.jpg" alt="Fritöz Dijital | 40D">
+            <h5>Fritöz Dijital | 40D</h5>
+            <i><p>Dijital sıcaklık kontrolü ile kusursuz kızartma.</p></i>
+        </a>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card">
+        <a href="">
+            <img src="assets/Pişiriciler/PRO-900/digital-fryer-80d.jpg" alt="Fritöz Dijital | 80D">
+            <h5>Fritöz Dijital | 80D</h5>
+            <i><p>Hassas sıcaklık ayarı ile yüksek kapasiteli fritöz.</p></i>
+        </a>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card">
+        <a href="">
+            <img src="assets/Pişiriciler/PRO-900/electric-pasta-cooker-40.webp" alt="Makarna Haşlama Elektrikli | 40">
+            <h5>Makarna Haşlama Elektrikli | 40</h5>
+            <i><p>Hızlı ve pratik makarna haşlama.</p></i>
+        </a>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card">
+        <a href="">
+            <img src="assets/Pişiriciler/PRO-900/electric-pasta-cooker-80.webp" alt="Makarna Haşlama Elektrikli | 80">
+            <h5>Makarna Haşlama Elektrikli | 80</h5>
+            <i><p>Büyük mutfaklar için verimli makarna haşlama.</p></i>
+        </a>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card">
+        <a href="">
+            <img src="assets/Pişiriciler/PRO-900/digital-pasta-cooker-40d.jpg" alt="Makarna Haşlama Dijital | 40D">
+            <h5>Makarna Haşlama Dijital | 40D</h5>
+            <i><p>Dijital kontrol ile mükemmel makarna pişirme.</p></i>
+        </a>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card">
+        <a href="">
+            <img src="assets/Pişiriciler/PRO-900/digital-pasta-cooker-80d.jpg" alt="Makarna Haşlama Dijital | 80D">
+            <h5>Makarna Haşlama Dijital | 80D</h5>
+            <i><p>Profesyonel mutfaklar için dijital makarna haşlama.</p></i>
+        </a>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card">
+        <a href="">
+            <img src="assets/Pişiriciler/PRO-900/electric-barbecue-grill-40.webp" alt="Barbekü Izgara Elektrikli | 40">
+            <h5>Barbekü Izgara Elektrikli | 40</h5>
+            <i><p>Elektrikli ızgara ile lezzetli barbekü yemekleri.</p></i>
+        </a>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card">
+        <a href="">
+            <img src="assets/Pişiriciler/PRO-900/electric-barbecue-grill-120.webp" alt="Barbekü Izgara Elektrikli | 120">
+            <h5>Barbekü Izgara Elektrikli | 120</h5>
+            <i><p>Büyük partiler için yüksek performanslı elektrikli ızgara.</p></i>
+        </a>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card">
+        <a href="">
+            <img src="assets/Pişiriciler/PRO-900/gas-barbecue-grill-40.webp" alt="Barbekü Izgara Gazlı | 40">
+            <h5>Barbekü Izgara Gazlı | 40</h5>
+            <i><p>Gazlı ızgara ile hızlı pişirme.</p></i>
+        </a>
+    </div>
+</div>
+
+            
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="">
+                        <img src="assets/Pişiriciler/PRO-900/gas-barbecue-grill-120.webp" alt="Barbekü Izgara Gazlı | 120">
+                        <h5>Barbekü Izgara Gazlı | 120</h5>
+                        <i><p>Gazlı barbekü ızgarası, pratik ve güçlü pişirme sunar.</p></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="">
+                        <img src="assets/Pişiriciler/PRO-900/electric-tilting-pan-80.webp" alt="Devrilir Tava Elektrikli | 80">
+                        <h5>Devrilir Tava Elektrikli | 80</h5>
+                        <i><p>Hızlı ısıtma ve verimli pişirme için elektrikli devrilir tava.</p></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="">
+                        <img src="assets/Pişiriciler/PRO-900/electric-tilting-pan-120.webp" alt="Devrilir Tava Elektrikli | 120">
+                        <h5>Devrilir Tava Elektrikli | 120</h5>
+                        <i><p>Geniş hacmi ile yüksek kapasite için elektrikli devrilir tava.</p></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="">
+                        <img src="assets/Pişiriciler/PRO-900/gas-tilting-pan-80.webp" alt="Devrilir Tava Gazlı | 80">
+                        <h5>Devrilir Tava Gazlı | 80</h5>
+                        <i><p>Gazlı devrilir tava, yüksek verimle pişirme sağlar.</p></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="">
+                        <img src="assets/Pişiriciler/PRO-900/gas-tilting-pan-120.webp" alt="Devrilir Tava Gazlı | 120">
+                        <h5>Devrilir Tava Gazlı | 120</h5>
+                        <i><p>Geniş kapasite ve güçlü gazlı sistemle pişirme deneyimi.</p></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="">
+                        <img src="assets/Pişiriciler/PRO-900/electric-oven-range.jpg" alt="Kuzine Fırını Elektrikli">
+                        <h5>Kuzine Fırını Elektrikli</h5>
+                        <i><p>Elektrikli kuzine fırın, pratik pişirme imkanı sunar.</p></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="">
+                        <img src="assets/Pişiriciler/PRO-900/gas-oven-range.jpg" alt="Kuzine Fırını Gazlı">
+                        <h5>Kuzine Fırını Gazlı</h5>
+                        <i><p>Gazlı kuzine fırın, güçlü ve verimli pişirme sağlar.</p></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="">
+                        <img src="assets/Pişiriciler/PRO-900/electric-boiling-pan.webp" alt="Kaynatma Kazanı Elektrikli">
+                        <h5>Kaynatma Kazanı Elektrikli</h5>
+                        <i><p>Elektrikli kaynatma kazanı, hızlı ısınma ve uzun süreli kullanım sunar.</p></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="">
+                        <img src="assets/Pişiriciler/PRO-900/gas-boiling-pan.webp" alt="Kaynatma Kazanı Gazlı">
+                        <h5>Kaynatma Kazanı Gazlı</h5>
+                        <i><p>Gazlı kaynatma kazanı, büyük kapasiteyle pratik kullanım sağlar.</p></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="">
+                        <img src="assets/Pişiriciler/PRO-900/base-cupboard-40.jpg" alt="Kapılı Alt Dolap | 40">
+                        <h5>Kapılı Alt Dolap | 40</h5>
+                        <i><p>Kompakt ve dayanıklı alt dolap, mutfakta düzen sağlar.</p></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="">
+                        <img src="assets/Pişiriciler/PRO-900/base-cupboard-160.jpg" alt="Kapılı Alt Dolap | 160">
+                        <h5>Kapılı Alt Dolap | 160</h5>
+                        <i><p>Geniş iç hacmi ile depolama alanı sunan alt dolap.</p></i>
+                    </a>
+                </div>
+            </div>
+            
+
+
+
+
+       
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
