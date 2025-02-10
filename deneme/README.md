@@ -1,1 +1,0 @@
-bu github deneme dosyasıdır.
