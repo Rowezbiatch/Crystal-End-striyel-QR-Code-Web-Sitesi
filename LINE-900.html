@@ -1,22 +1,19 @@
 <!DOCTYPE html>
-
 <html lang="tr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>LINE | 900</title>
    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>  body {
+  <style>  body {
         background-color: #e9e9e9;
-
         margin: 0;
-        /* min-height: 100vh; */
+        padding-top: 150px !important;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 20px;
+        justify-content: space-between;
     }
     
     .card {
@@ -37,6 +34,7 @@
         margin-bottom: 10px;
         box-shadow:  4px 4px 8px  rgba(80, 80, 80,80 );
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
     }
     .card img {
         max-width: 100%;
@@ -71,7 +69,7 @@
     text-decoration: none;
     }
     .card h5 {
-    margin: 20px 0 10px; /* Daha az boşluk */
+    margin: 20px 0 10px; 
     padding-top: 15px;
     text-decoration: none;   
     text-decoration: none;    
@@ -95,6 +93,7 @@
     
     padding-right: 13px;
 
+
 }
 
     .text h1{
@@ -102,36 +101,59 @@
         text-shadow: 0 .15ch 15px var(--shadow),0 -2px 0 var(--highlight);
         color: #333;
         bottom: 65px;
+        text-align: center;
    
     }
-    .navBox{
-        max-width: 1400px;
-        display: flex;
-        justify-content: flex-start;
-    }
+   
     .navbar{
-    width: 1350px;
-      display: flex;
-      height: 100px;
-      top: 0px;
-    }          
-    
+        width: 100%!important; 
+        background-color: #e9e9e9;
+        max-width: 1650px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        right: 0;
+        left: 0;
+        top: 0;
+        z-index: 1000; /* Ensure the navbar is on top */
+        border-bottom: 1px solid #c6c5c5
+       
+    }
+
+  .logo-box{
+    max-width: 250px;
+    margin: 0 auto; 
+    padding: 15px;
+
+  }
+  .logo{
+    width: 100%;
+  }
+    .contact{
+        max-width: 250px;
+        margin: 0 auto;
+        padding-top: 10px;
+        a{
+            color: #1e458f;
+        }
+    }
+
 </style>
 </head>
 <body>
-  <div class="navBox">
-        <nav class="navbar">
-            <a href="index.html" class="logo">
-                <img width="150px" src="https://crystal.com.tr/assets/icon/logo.png" alt="Kristal Endüstriyel">
-            </a>
-            <div class="contact-us">
-               <a href="tel:+90 123 456 78 90">
-                <p><i class="fas fa-phone"></i> <strong>İletişim: 123 456 78 90</strong></p>
-               </a>
-                
+   <nav class="navbar">
+            <div class="logo-box">
+                <a href="index.html" class="logo">
+                    <img width="150px" src="https://crystal.com.tr/assets/icon/logo.png" alt="Kristal Endüstriyel">
+                    </a>
             </div>
+                <div class="contact">
+                    <a href="tel:+90 242 258 00 22">
+                        <p><i class="fas fa-phone"></i><strong> Çağrı Merkezi</p>
+                        </a>    
+                </div>         
         </nav>
-    </div>
     <span class="text">
         <h1>LİNE  900 Serisi</h1>
     
@@ -140,8 +162,8 @@
     <div class="row justify-content-center">
         <div class="col-md-4" style="max-width: 1350px;">
             <div class="card">
-                    <a href="">
-                        <img src="assets/Pişiriciler/line-900/two-hot-plates-range.webp" alt="İkili Elektrikli Ocak">
+                    <a href="assets/pdfler/pişiriciler-pdf/CRYSTAL-COOKING-EQUIPMENT-CATALOG.pdf" target="_blank">
+                        <img width="200px" src="assets/Pişiriciler/line-900/two-hot-plates-range.webp" alt="İkili Elektrikli Ocak">
                         <h5>İkili Ocak Elektrikli</h5>
                         <i><p>İki adet sıcaklık ayarı ile yemeklerinizi hızlı ve verimli bir şekilde pişirebilirsiniz.</p></i>
                     </a>
@@ -150,8 +172,8 @@
     
             <div class="col-md-4">
                 <div class="card">
-                    <a href="">
-                        <img src="assets/Pişiriciler/line-900/four-hot-plates-range.webp" alt="Dörtlü Elektrikli Ocak">
+                    <a href="assets/pdfler/pişiriciler-pdf/CRYSTAL-COOKING-EQUIPMENT-CATALOG.pdf" target="_blank">
+                        <img width="200px" src="assets/Pişiriciler/line-900/four-hot-plates-range.webp" alt="Dörtlü Elektrikli Ocak">
                         <h5>Dörtlü Ocak Elektrikli</h5>
                         <i><p>Dört ocaklı tasarımı ile yoğun kullanım alanları için ideal elektrikli ocak.</p></i>
                     </a>
@@ -160,8 +182,8 @@
             
             <div class="col-md-4">
                 <div class="card">
-                    <a href="">
-                        <img src="assets/Pişiriciler/line-900/six-hot-plates-range.webp" alt="Altılı Elektrikli Ocak">
+                    <a href="assets/pdfler/pişiriciler-pdf/CRYSTAL-COOKING-EQUIPMENT-CATALOG.pdf" target="_blank">
+                        <img width="200px" src="assets/Pişiriciler/line-900/six-hot-plates-range.webp" alt="Altılı Elektrikli Ocak">
                         <h5>Altılı Ocak Elektrikli</h5>
                         <i><p>Geniş yemek pişirme alanı ile profesyonel mutfaklar için güçlü çözüm.</p></i>
                     </a>
@@ -170,8 +192,8 @@
     
             <div class="col-md-4">
                 <div class="card">
-                    <a href="">
-                        <img src="assets/Pişiriciler/line-900/two-burners-gas-range.webp" alt="İkili Gazlı Ocak">
+                    <a href="assets/pdfler/pişiriciler-pdf/CRYSTAL-COOKING-EQUIPMENT-CATALOG.pdf" target="_blank">
+                        <img width="200px" src="assets/Pişiriciler/line-900/two-burners-gas-range.webp" alt="İkili Gazlı Ocak">
                         <h5>İkili Ocak Gazlı</h5>
                         <i><p>Gazlı ocak ile enerji verimliliği sağlayarak hızlı yemek hazırlığı yapabilirsiniz.</p></i>
                     </a>
@@ -180,8 +202,8 @@
             
             <div class="col-md-4">
                 <div class="card">
-                    <a href="">
-                        <img src="assets/Pişiriciler/line-900/four-burners-gas-range.webp" alt="Dörtlü Gazlı Ocak">
+                    <a href="assets/pdfler/pişiriciler-pdf/CRYSTAL-COOKING-EQUIPMENT-CATALOG.pdf" target="_blank">
+                        <img width="200px" src="assets/Pişiriciler/line-900/four-burners-gas-range.webp" alt="Dörtlü Gazlı Ocak">
                         <h5>Dörtlü Ocak Gazlı</h5>
                         <i><p>Yüksek ısı gücü ve uzun ömürlü kullanım için ideal gazlı ocak modeli.</p></i>
                     </a>
@@ -190,8 +212,8 @@
             
             <div class="col-md-4">
                 <div class="card">
-                    <a href="">
-                        <img src="assets/Pişiriciler/line-900/six-burners-gas-range.webp" alt="Altılı Gazlı Ocak">
+                    <a href="assets/pdfler/pişiriciler-pdf/CRYSTAL-COOKING-EQUIPMENT-CATALOG.pdf" target="_blank">
+                        <img width="200px" src="assets/Pişiriciler/line-900/six-burners-gas-range.webp" alt="Altılı Gazlı Ocak">
                         <h5>Altılı Ocak Gazlı</h5>
                         <i><p>Profesyonel mutfaklar için altı ocaklı geniş pişirme alanı sunan gazlı ocak.</p></i>
                     </a>
@@ -200,8 +222,8 @@
             
             <div class="col-md-4">
                 <div class="card">
-                    <a href="">
-                        <img src="assets/Pişiriciler/line-900/one-burner-gas-range-40.webp" alt="Tekli Gazlı Ocak | 40">
+                    <a href="assets/pdfler/pişiriciler-pdf/CRYSTAL-COOKING-EQUIPMENT-CATALOG.pdf" target="_blank">
+                        <img width="200px" src="assets/Pişiriciler/line-900/one-burner-gas-range-40.webp" alt="Tekli Gazlı Ocak | 40">
                         <h5>Tekli Ocak Gazlı | 40</h5>
                         <i><p>40 cm genişliğinde tekli gazlı ocak, pratik kullanım için tasarlandı.</p></i>
                     </a>
@@ -210,8 +232,8 @@
             
             <div class="col-md-4">
                 <div class="card">
-                    <a href="">
-                        <img src="assets/Pişiriciler/line-900/one-burner-gas-range-80.webp" alt="Tekli Gazlı Ocak | 80">
+                    <a href="assets/pdfler/pişiriciler-pdf/CRYSTAL-COOKING-EQUIPMENT-CATALOG.pdf" target="_blank">
+                        <img width="200px" src="assets/Pişiriciler/line-900/one-burner-gas-range-80.webp" alt="Tekli Gazlı Ocak | 80">
                         <h5>Tekli Ocak Gazlı | 80</h5>
                         <i><p>Yüksek kapasiteye sahip tekli gazlı ocak, daha fazla pişirme gücü sunar.</p></i>
                     </a>
@@ -220,8 +242,8 @@
             
             <div class="col-md-4">
                 <div class="card">
-                    <a href="">
-                        <img src="assets/Pişiriciler/line-900/gas-solid-top.webp" alt="Kapalı Döküm Gazlı Ocak">
+                    <a href="assets/pdfler/pişiriciler-pdf/CRYSTAL-COOKING-EQUIPMENT-CATALOG.pdf" target="_blank">
+                        <img width="200px" src="assets/Pişiriciler/line-900/gas-solid-top.webp" alt="Kapalı Döküm Gazlı Ocak">
                         <h5>Kapalı Döküm Ocak Gazlı</h5>
                         <i><p>Dayanıklı döküm malzeme ile uzun ömürlü ve verimli gazlı ocak çözümü.</p></i>
                     </a>
@@ -230,8 +252,8 @@
             
             <div class="col-md-4">
                 <div class="card">
-                    <a href="">
-                        <img src="assets/Pişiriciler/line-900/single-wok-range.webp" alt="Gazlı Vok Ocak">
+                    <a href="assets/pdfler/pişiriciler-pdf/CRYSTAL-COOKING-EQUIPMENT-CATALOG.pdf" target="_blank">
+                        <img width="200px" src="assets/Pişiriciler/line-900/single-wok-range.webp" alt="Gazlı Vok Ocak">
                         <h5>Vok Ocak Gazlı</h5>
                         <i><p>Yüksek ısıya dayanıklı wok ocak, lezzetli ve hızlı yemekler için ideal.</p></i>
                     </a>
@@ -240,8 +262,8 @@
             
             <div class="col-md-4">
                 <div class="card">
-                    <a href="">
-                        <img src="assets/Pişiriciler/line-900/double-wok-range.webp" alt="İkili Gazlı Vok Ocak">
+                    <a href="assets/pdfler/pişiriciler-pdf/CRYSTAL-COOKING-EQUIPMENT-CATALOG.pdf" target="_blank">
+                        <img width="200px" src="assets/Pişiriciler/line-900/double-wok-range.webp" alt="İkili Gazlı Vok Ocak">
                         <h5>İkili Vok Ocak Gazlı</h5>
                         <i><p>İki adet wok tavası için uygun, yoğun kullanıma dayalı gazlı ocak.</p></i>
                     </a>
@@ -250,8 +272,8 @@
             
             <div class="col-md-4">
                 <div class="card">
-                    <a href="">
-                        <img src="assets/Pişiriciler/line-700/spice-unit.webp" alt="Baharatlık">
+                    <a href="assets/pdfler/pişiriciler-pdf/CRYSTAL-COOKING-EQUIPMENT-CATALOG.pdf" target="_blank">
+                        <img width="200px" src="assets/Pişiriciler/line-700/spice-unit.webp" alt="Baharatlık">
                         <h5>Baharatlık</h5>
                         <i><p>Mutfağınızda düzen sağlamak için kullanışlı ve pratik baharatlık ünitesi.</p></i>
                     </a>
@@ -260,8 +282,8 @@
             
             <div class="col-md-4">
                 <div class="card">
-                    <a href="">
-                        <img src="assets/Pişiriciler/line-900/chips-scuttle.webp" alt="Patates Dinlendirme Ünitesi">
+                    <a href="assets/pdfler/pişiriciler-pdf/CRYSTAL-COOKING-EQUIPMENT-CATALOG.pdf" target="_blank">
+                        <img width="200px" src="assets/Pişiriciler/line-900/chips-scuttle.webp" alt="Patates Dinlendirme Ünitesi">
                         <h5>Patates Dinlendirme</h5>
                         <i><p>Fried food preparation tool, helps in storing and cooling fried potatoes efficiently.</p></i>
                     </a>
@@ -270,8 +292,8 @@
             
             <div class="col-md-4">
                 <div class="card">
-                    <a href="">
-                        <img src="assets/Pişiriciler/line-900/bain-marie.webp" alt="Benmari">
+                    <a href="assets/pdfler/pişiriciler-pdf/CRYSTAL-COOKING-EQUIPMENT-CATALOG.pdf" target="_blank">
+                        <img width="200px" src="assets/Pişiriciler/line-900/bain-marie.webp" alt="Benmari">
                         <h5>Benmari</h5>
                         <i><p>Yemeklerinizi ısıtmak ve muhafaza etmek için ideal benmari ünitesi.</p></i>
                     </a>
@@ -280,8 +302,8 @@
             
             <div class="col-md-4">
                 <div class="card">
-                    <a href="">
-                        <img src="assets/Pişiriciler/line-900/work-top.jpg" alt="Ara Tezgah">
+                    <a href="assets/pdfler/pişiriciler-pdf/CRYSTAL-COOKING-EQUIPMENT-CATALOG.pdf" target="_blank">
+                        <img width="200px" src="assets/Pişiriciler/line-900/work-top.jpg" alt="Ara Tezgah">
                         <h5>Ara Tezgah</h5>
                         <i><p>Mutfağınıza ek çalışma alanı sağlar, ergonomik tasarımı ile işinizi kolaylaştırır.</p></i>
                     </a>
@@ -290,8 +312,8 @@
             
             <div class="col-md-4">
                 <div class="card">
-                    <a href="">
-                        <img src="assets/Pişiriciler/line-900/two-plates-infrared-range.webp" alt="İkili İnfrared Ocak">
+                    <a href="assets/pdfler/pişiriciler-pdf/CRYSTAL-COOKING-EQUIPMENT-CATALOG.pdf" target="_blank">
+                        <img width="200px" src="assets/Pişiriciler/line-900/two-plates-infrared-range.webp" alt="İkili İnfrared Ocak">
                         <h5>İkili Ocak İnfrared</h5>
                         <i><p>İnfrared teknolojisi ile yüksek verimlilikle yemek pişirme.</p></i>
                     </a>
@@ -300,8 +322,8 @@
             
             <div class="col-md-4">
                 <div class="card">
-                    <a href="">
-                        <img src="assets/Pişiriciler/line-900/four-plates-infrared-range.webp" alt="Dörtlü İnfrared Ocak">
+                    <a href="assets/pdfler/pişiriciler-pdf/CRYSTAL-COOKING-EQUIPMENT-CATALOG.pdf" target="_blank">
+                        <img width="200px" src="assets/Pişiriciler/line-900/four-plates-infrared-range.webp" alt="Dörtlü İnfrared Ocak">
                         <h5>Dörtlü Ocak İnfrared</h5>
                         <i><p>Profesyonel mutfaklar için güçlü ve verimli dört gözlü infrared ocak.</p></i>
                     </a>
@@ -310,8 +332,8 @@
             
             <div class="col-md-4">
                 <div class="card">
-                    <a href="">
-                        <img src="assets/Pişiriciler/line-900/six-plates-infrared-range.webp" alt="Altılı İnfrared Ocak">
+                    <a href="assets/pdfler/pişiriciler-pdf/CRYSTAL-COOKING-EQUIPMENT-CATALOG.pdf" target="_blank">
+                        <img width="200px" src="assets/Pişiriciler/line-900/six-plates-infrared-range.webp" alt="Altılı İnfrared Ocak">
                         <h5>Altılı Ocak İnfrared</h5>
                         <i><p>Yüksek verimli altılı ocak, geniş kullanım alanları sunar.</p></i>
                     </a>
@@ -320,8 +342,8 @@
     
             <div class="col-md-4">
                 <div class="card">
-                    <a href="">
-                        <img src="assets/Pişiriciler/line-900/electric-fry-top-40.webp" alt="Izgara Pleyt Elektrikli | 40">
+                    <a href="assets/pdfler/pişiriciler-pdf/CRYSTAL-COOKING-EQUIPMENT-CATALOG.pdf" target="_blank">
+                        <img width="200px" src="assets/Pişiriciler/line-900/electric-fry-top-40.webp" alt="Izgara Pleyt Elektrikli | 40">
                         <h5>Izgara Pleyt Elektrikli | 40</h5>
                         <i><p>40 cm'lik elektrikli ızgara pleyt, hızlı ve verimli pişirme için idealdir.</p></i>
                     </a>
@@ -330,8 +352,8 @@
             
             <div class="col-md-4">
                 <div class="card">
-                    <a href="">
-                        <img src="assets/Pişiriciler/line-900/electric-fry-top-80.webp" alt="Izgara Pleyt Gazlı | 80">
+                    <a href="assets/pdfler/pişiriciler-pdf/CRYSTAL-COOKING-EQUIPMENT-CATALOG.pdf" target="_blank">
+                        <img width="200px" src="assets/Pişiriciler/line-900/electric-fry-top-80.webp" alt="Izgara Pleyt Gazlı | 80">
                         <h5>Izgara Pleyt Gazlı | 80</h5>
                         <i><p>Gazlı ızgara pleyt ile güçlü ısıl işlem ve lezzetli yemekler.</p></i>
                     </a>
@@ -340,8 +362,8 @@
     
             <div class="col-md-4">
                 <div class="card">
-                    <a href="">
-                        <img src="assets/Pişiriciler/line-900/electric-fryer-40.webp" alt="Fritöz Elektrikli | 40">
+                    <a href="assets/pdfler/pişiriciler-pdf/CRYSTAL-COOKING-EQUIPMENT-CATALOG.pdf" target="_blank">
+                        <img width="200px" src="assets/Pişiriciler/line-900/electric-fryer-40.webp" alt="Fritöz Elektrikli | 40">
                         <h5>Fritöz Elektrikli | 40</h5>
                         <i><p>Yüksek kapasiteli elektrikli fritöz, güvenli ve verimli kızartma.</p></i>
                     </a>
@@ -350,8 +372,8 @@
     
             <div class="col-md-4">
                 <div class="card">
-                    <a href="">
-                        <img src="assets/Pişiriciler/line-900/electric-fryer-80.webp" alt="Fritöz Elektrikli | 80">
+                    <a href="assets/pdfler/pişiriciler-pdf/CRYSTAL-COOKING-EQUIPMENT-CATALOG.pdf" target="_blank">
+                        <img width="200px" src="assets/Pişiriciler/line-900/electric-fryer-80.webp" alt="Fritöz Elektrikli | 80">
                         <h5>Fritöz Elektrikli | 80</h5>
                         <i><p>Geniş kapasiteye sahip elektrikli fritöz, profesyonel mutfaklar için uygundur.</p></i>
                     </a>
@@ -360,8 +382,8 @@
             
             <div class="col-md-4">
                 <div class="card">
-                    <a href="">
-                        <img src="assets/Pişiriciler/line-900/digital-fryer-40d.jpg" alt="Fritöz Dijital | 40D">
+                    <a href="assets/pdfler/pişiriciler-pdf/CRYSTAL-COOKING-EQUIPMENT-CATALOG.pdf" target="_blank">
+                        <img width="200px" src="assets/Pişiriciler/line-900/digital-fryer-40d.jpg" alt="Fritöz Dijital | 40D">
                         <h5>Fritöz Dijital | 40D</h5>
                         <i><p>40D dijital fritöz, hassas ısı kontrolü ile mükemmel kızartmalar yapar.</p></i>
                     </a>
@@ -370,8 +392,8 @@
             
             <div class="col-md-4">
                 <div class="card">
-                    <a href="">
-                        <img src="assets/Pişiriciler/line-900/digital-fryer-80d.jpg" alt="Fritöz Dijital | 80D">
+                    <a href="assets/pdfler/pişiriciler-pdf/CRYSTAL-COOKING-EQUIPMENT-CATALOG.pdf" target="_blank">
+                        <img width="200px" src="assets/Pişiriciler/line-900/digital-fryer-80d.jpg" alt="Fritöz Dijital | 80D">
                         <h5>Fritöz Dijital | 80D</h5>
                         <i><p>80D dijital fritöz ile mükemmel sıcaklık kontrolü ve yüksek verimlilik.</p></i>
                     </a>
@@ -380,8 +402,8 @@
     
             <div class="col-md-4">
                 <div class="card">
-                    <a href="">
-                        <img src="assets/Pişiriciler/line-900/electric-pasta-cooker-40.webp" alt="Makarna Haşlama Elektrikli | 40">
+                    <a href="assets/pdfler/pişiriciler-pdf/CRYSTAL-COOKING-EQUIPMENT-CATALOG.pdf" target="_blank">
+                        <img width="200px" src="assets/Pişiriciler/line-900/electric-pasta-cooker-40.webp" alt="Makarna Haşlama Elektrikli | 40">
                         <h5>Makarna Haşlama Elektrikli | 40</h5>
                         <i><p>40 cm'lik elektrikli makarna haşlama cihazı, hız ve verimlilik sağlar.</p></i>
                     </a>
@@ -390,8 +412,8 @@
     
             <div class="col-md-4">
                 <div class="card">
-                    <a href="">
-                        <img src="assets/Pişiriciler/line-900/electric-pasta-cooker-80.webp" alt="Makarna Haşlama Elektrikli | 80">
+                    <a href="assets/pdfler/pişiriciler-pdf/CRYSTAL-COOKING-EQUIPMENT-CATALOG.pdf" target="_blank">
+                        <img width="200px" src="assets/Pişiriciler/line-900/electric-pasta-cooker-80.webp" alt="Makarna Haşlama Elektrikli | 80">
                         <h5>Makarna Haşlama Elektrikli | 80</h5>
                         <i><p>Yüksek kapasiteye sahip elektrikli makarna haşlama cihazı, büyük mutfaklar için ideal.</p></i>
                     </a>
@@ -400,8 +422,8 @@
             
             <div class="col-md-4">
                 <div class="card">
-                    <a href="">
-                        <img src="assets/Pişiriciler/line-900/digital-pasta-cooker-40d.jpg" alt="Makarna Haşlama Dijital | 40D">
+                    <a href="assets/pdfler/pişiriciler-pdf/CRYSTAL-COOKING-EQUIPMENT-CATALOG.pdf" target="_blank">
+                        <img width="200px" src="assets/Pişiriciler/line-900/digital-pasta-cooker-40d.jpg" alt="Makarna Haşlama Dijital | 40D">
                         <h5>Makarna Haşlama Dijital | 40D</h5>
                         <i><p>Dijital kontrol ile daha hassas sıcaklık ayarlarıyla makarna pişirme.</p></i>
                     </a>
@@ -410,8 +432,8 @@
     
             <div class="col-md-4">
                 <div class="card">
-                    <a href="">
-                        <img src="assets/Pişiriciler/line-900/digital-pasta-cooker-80d.jpg" alt="Makarna Haşlama Dijital | 80D">
+                    <a href="assets/pdfler/pişiriciler-pdf/CRYSTAL-COOKING-EQUIPMENT-CATALOG.pdf" target="_blank">
+                        <img width="200px" src="assets/Pişiriciler/line-900/digital-pasta-cooker-80d.jpg" alt="Makarna Haşlama Dijital | 80D">
                         <h5>Makarna Haşlama Dijital | 80D</h5>
                         <i><p>80D dijital makarna haşlama cihazı ile mükemmel pişirme kontrolü sağlar.</p></i>
                     </a>
@@ -420,8 +442,8 @@
     
             <div class="col-md-4">
                 <div class="card">
-                    <a href="">
-                        <img src="assets/Pişiriciler/line-900/electric-barbecue-grill-40.webp" alt="Barbekü Izgara Elektrikli | 40">
+                    <a href="assets/pdfler/pişiriciler-pdf/CRYSTAL-COOKING-EQUIPMENT-CATALOG.pdf" target="_blank">
+                        <img width="200px" src="assets/Pişiriciler/line-900/electric-barbecue-grill-40.webp" alt="Barbekü Izgara Elektrikli | 40">
                         <h5>Barbekü Izgara Elektrikli | 40</h5>
                         <i><p>40 cm'lik elektrikli barbekü ızgarası, kolay temizlik ve verimli ısıtma sunar.</p></i>
                     </a>
@@ -430,8 +452,8 @@
     
             <div class="col-md-4">
                 <div class="card">
-                    <a href="">
-                        <img src="assets/Pişiriciler/line-900/electric-barbecue-grill-120.webp" alt="Barbekü Izgara Elektrikli | 120">
+                    <a href="assets/pdfler/pişiriciler-pdf/CRYSTAL-COOKING-EQUIPMENT-CATALOG.pdf" target="_blank">
+                        <img width="200px" src="assets/Pişiriciler/line-900/electric-barbecue-grill-120.webp" alt="Barbekü Izgara Elektrikli | 120">
                         <h5>Barbekü Izgara Elektrikli | 120</h5>
                         <i><p>Geniş kapasiteye sahip elektrikli barbekü ızgarası, dış mekanlar için uygundur.</p></i>
                     </a>
@@ -440,8 +462,8 @@
     
             <div class="col-md-4">
                 <div class="card">
-                    <a href="">
-                        <img src="assets/Pişiriciler/line-900/gas-barbecue-grill-40.webp" alt="Barbekü Izgara Gazlı | 40">
+                    <a href="assets/pdfler/pişiriciler-pdf/CRYSTAL-COOKING-EQUIPMENT-CATALOG.pdf" target="_blank">
+                        <img width="200px" src="assets/Pişiriciler/line-900/gas-barbecue-grill-40.webp" alt="Barbekü Izgara Gazlı | 40">
                         <h5>Barbekü Izgara Gazlı | 40</h5>
                         <i><p>Gazlı barbekü ızgarası ile yüksek ısıda lezzetli etler pişirebilirsiniz.</p></i>
                     </a>
@@ -450,8 +472,8 @@
     
             <div class="col-md-4">
                 <div class="card">
-                    <a href="">
-                        <img src="assets/Pişiriciler/line-900/gas-barbecue-grill-120.webp" alt="Barbekü Izgara Gazlı | 120">
+                    <a href="assets/pdfler/pişiriciler-pdf/CRYSTAL-COOKING-EQUIPMENT-CATALOG.pdf" target="_blank">
+                        <img width="200px" src="assets/Pişiriciler/line-900/gas-barbecue-grill-120.webp" alt="Barbekü Izgara Gazlı | 120">
                         <h5>Barbekü Izgara Gazlı | 120</h5>
                         <i><p>120 cm'lik gazlı barbekü ızgarası, geniş alanlarda kullanım için uygundur.</p></i>
                     </a>
@@ -459,8 +481,8 @@
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <a href="">
-                        <img src="assets/Pişiriciler/line-900/electric-oven-range.jpg" alt="Elektrikli Kuzine Fırını">
+                    <a href="assets/pdfler/pişiriciler-pdf/CRYSTAL-COOKING-EQUIPMENT-CATALOG.pdf" target="_blank">
+                        <img width="200px" src="assets/Pişiriciler/line-900/electric-oven-range.jpg" alt="Elektrikli Kuzine Fırını">
                         <h5>Kuzine Fırını Elektrikli</h5>
                         <i><p>Hızlı ısınma ve enerji verimliliği sunar, profesyonel mutfaklar için idealdir.</p></i>
                     </a>
@@ -469,8 +491,8 @@
             
             <div class="col-md-4">
                 <div class="card">
-                    <a href="">
-                        <img src="assets/Pişiriciler/line-900/gas-oven-range.webp" alt="Gazlı Kuzine Fırını">
+                    <a href="assets/pdfler/pişiriciler-pdf/CRYSTAL-COOKING-EQUIPMENT-CATALOG.pdf" target="_blank">
+                        <img width="200px" src="assets/Pişiriciler/line-900/gas-oven-range.webp" alt="Gazlı Kuzine Fırını">
                         <h5>Kuzine Fırını Gazlı</h5>
                         <i><p>Gazlı ocak ile güçlü ısıtma sağlar, dayanıklı ve uzun ömürlüdür.</p></i>
                     </a>
@@ -479,8 +501,8 @@
             
             <div class="col-md-4">
                 <div class="card">
-                    <a href="">
-                        <img src="assets/Pişiriciler/line-900/base-cupboard-40.jpg" alt="Kapalı Alt Dolap 40 cm">
+                    <a href="assets/pdfler/pişiriciler-pdf/CRYSTAL-COOKING-EQUIPMENT-CATALOG.pdf" target="_blank">
+                        <img width="200px" src="assets/Pişiriciler/line-900/base-cupboard-40.jpg" alt="Kapalı Alt Dolap 40 cm">
                         <h5>Kapılı Alt Dolap | 40</h5>
                         <i><p>40 cm genişliğinde, kullanışlı ve düzenli saklama alanı sunar.</p></i>
                     </a>
@@ -489,8 +511,8 @@
             
             <div class="col-md-4">
                 <div class="card">
-                    <a href="">
-                        <img src="assets/Pişiriciler/line-900/base-cupboard-120.jpg" alt="Kapalı Alt Dolap 120 cm">
+                    <a href="assets/pdfler/pişiriciler-pdf/CRYSTAL-COOKING-EQUIPMENT-CATALOG.pdf" target="_blank">
+                        <img width="200px" src="assets/Pişiriciler/line-900/base-cupboard-120.jpg" alt="Kapalı Alt Dolap 120 cm">
                         <h5>Kapılı Alt Dolap | 120</h5>
                         <i><p>120 cm genişliğinde, geniş saklama alanı sağlar.</p></i>
                     </a>
